@@ -1,45 +1,48 @@
-<ion-view title="设置">
-  <ion-nav-buttons side="left">
-    <button menu-toggle="left" class="button button-icon icon ion-navicon-round"></button>
-  </ion-nav-buttons>
-  <ion-content class="has-header">
-    <div class="list card">
-      <a class="item item-icon-left">
-        <i class="icon ion-ios7-alarm-outline"></i> 提醒设置
-      </a>
-      <a class="item item-icon-left item-icon-right" ng-click="showBgcolor=!showBgcolor" ng-show='showBgcolor'>
-        <i class="icon ion-settings"></i> 主题设置 <i class="icon ion-ios7-arrow-up" ng-show='showBgcolor'></i>
-      </a>
-      <a class="item item-icon-left item-icon-right" ng-click="showBgcolor=!showBgcolor" ng-show='!showBgcolor'>
-        <i class="icon ion-settings"></i> 主题设置 <i class="icon ion-ios7-arrow-down" ng-show='!showBgcolor'></i>
-      </a>
-      <div class="item item-text-wrap" ng-show='showBgcolor'>
-        <div class="row">
-          <div class="col"><button class="button button-positive" ng-click="setBgcolor(1)"></div>
-          <div class="col"><button class="button button-calm" ng-click="setBgcolor(2)"></div>
-          <div class="col"><button class="button button-balanced" ng-click="setBgcolor(3)"></div>
-        </div>
-        <div class="row">
-          <div class="col"><button class="button button-energized" ng-click="setBgcolor(4)"></div>
-          <div class="col"><button class="button button-assertive" ng-click="setBgcolor(5)"></div>
-          <div class="col"><button class="button button-royal" ng-click="setBgcolor(6)"></div>
-        </div>
-      </div>
-      <a class="item item-icon-left">
-        <i class="icon ion-share"></i> 分享给好友
-      </a>
-      <a class="item item-icon-left">
-        <i class="icon ion-loop"></i> 检查新版本
-      </a>
-      <a class="item item-icon-left item-icon-right" ng-click="showAbout=!showAbout" ng-show='showAbout'>
-        <i class="icon ion-help"></i> 关于 <i class="icon ion-ios7-arrow-up" ng-show='showAbout'></i>
-      </a>
-      <a class="item item-icon-left item-icon-right" ng-click="showAbout=!showAbout" ng-show='!showAbout'>
-        <i class="icon ion-help"></i> 关于 <i class="icon ion-ios7-arrow-down" ng-show='!showAbout'></i>
-      </a>
-      <div class="item item-text-wrap" ng-show='showAbout'>
-        <pre>Ionic是一个前端的框架,帮助开发者使用HTML5, CSS3和JavaScript做出原生应用。有了它,开发者可以使用HTML5做出原生应用的感觉。</pre>
-      </div>
-    </div>
+<ion-view view-title="插件的使用">
+  <ion-content>
+    <ion-list>
+      <ion-item>
+      	<button class="button button-positive" ng-click="ActionSheet()">Action Sheet</button>
+      	<span>底部弹框</span>
+      	<button class="button button-positive" ng-click="IonicActionSheet()">Ionic Action Sheet</button>
+      	<span>Ionic自带的底部弹框</span>
+      </ion-item>
+      <ion-item>
+      	<button class="button button-positive" ng-click="AdMob()">AdMob</button>
+      	<span>呈现AdMob的广告</span>
+      	<button class="button button-positive" ng-click="AppAvailability()">AppAvailability</button>
+      	<span>检查是否能安装</span>
+      </ion-item>
+      <ion-item>
+      	<button class="button button-positive" ng-click="AppRate()">AppRate</button>
+      	<span>提示用户评价应用</span>
+      	<button class="button button-positive" ng-click="AppVersion()">AppVersion</button>
+      	<span>应用版本信息</span>
+      </ion-item>
+      <ion-item>
+      	<button class="button button-positive" ng-click="Badge()">Badge</button>
+      	<span>应用程序的证件号码</span>
+      	<button class="button button-positive" ng-click="BackgroundGeoloc()">BackgroundGeoloc</button>
+      	<span>地理位置</span>
+      </ion-item>
+      <ion-item>
+      	<button class="button button-positive" ng-click="BatteryStatus()">BatteryStatus</button>
+      	<span>电量状态</span>
+      	<button class="button button-positive" ng-click="BarcodeScanner()">BarcodeScanner</button>
+      	<span>扫描二维码</span>
+      </ion-item>
+      <ion-item>
+      	<button class="button button-positive" ng-click="Calendar()">Calendar</button>
+      	<span>日历</span>
+      	<button class="button button-positive" ng-click="DatePicker()">DatePicker</button>
+      	<span>日期</span>
+      </ion-item>
+      <ion-item>
+      	<button class="button button-positive" ng-click="Dialogs()">Dialogs</button>
+      	<span>弹框</span>
+      	<button class="button button-positive" ng-click="Toast()">Toast</button>
+      	<span>小弹框</span>
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>
