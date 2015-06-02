@@ -179,6 +179,7 @@ E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\lib\ngCordova\dist\ng-c
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\lib\ngCordova\dist\ng-cordova-mocks.min.js \
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\lib\ngCordova\dist\ng-cordova.js \
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\lib\ngCordova\dist\ng-cordova.min.js \
+E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\com.fengze.MyPlugin \
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\com.ionic.keyboard \
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\com.phonegap.plugins.barcodescanner \
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\com.plugin.datepicker \
@@ -194,6 +195,8 @@ E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\org.apache.cord
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\org.apache.cordova.inappbrowser \
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\org.pushandplay.cordova.apprate \
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\uk.co.whiteoctober.cordova.appversion \
+E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\com.fengze.MyPlugin\www \
+E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\com.fengze.MyPlugin\www\MyPlugin.js \
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\com.ionic.keyboard\www \
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\com.ionic.keyboard\www\keyboard.js \
 E:\Git\Learn\CovdovaPlugins\platforms\android\assets\www\plugins\com.phonegap.plugins.barcodescanner\www \

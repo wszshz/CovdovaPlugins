@@ -99,6 +99,13 @@ module.exports = [
         "id": "nl.x-services.plugins.toast.tests"
     },
     {
+        "file": "plugins/com.fengze.MyPlugin/www/MyPlugin.js",
+        "id": "com.fengze.MyPlugin.MyPlugin",
+        "clobbers": [
+            "window.plugins.MyPlugin"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.dialogs/www/notification.js",
         "id": "org.apache.cordova.dialogs.notification",
         "merges": [
@@ -150,6 +157,7 @@ module.exports.metadata =
     "com.rjfun.cordova.plugin.admob": "2.1.7",
     "com.plugin.datepicker": "0.6.0",
     "nl.x-services.plugins.toast": "2.0.6",
+    "com.fengze.MyPlugin": "0.0.1",
     "org.apache.cordova.dialogs": "0.3.0",
     "org.apache.cordova.globalization": "0.3.4",
     "org.apache.cordova.inappbrowser": "0.6.0",

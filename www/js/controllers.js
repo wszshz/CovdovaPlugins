@@ -3,7 +3,7 @@ angular.module('starter.controllers', [])
 .controller('MenuCtrl', function($scope) {
 })
 
-.controller('HomeCtrl', function(ServerData,$rootScope,$scope,$cordovaActionSheet,$ionicActionSheet,$cordovaAdMob,$cordovaAppAvailability,$cordovaAppRate,$cordovaAppVersion,$cordovaBadge,$cordovaBackgroundGeolocation,$cordovaBatteryStatus,$cordovaBarcodeScanner,$cordovaCalendar,$cordovaDatePicker,$cordovaDialogs,$cordovaToast) {
+.controller('HomeCtrl', function(ServerData,$rootScope,$ionicPopup,$scope,$cordovaActionSheet,$ionicActionSheet,$cordovaAdMob,$cordovaAppAvailability,$cordovaAppRate,$cordovaAppVersion,$cordovaBadge,$cordovaBackgroundGeolocation,$cordovaBatteryStatus,$cordovaBarcodeScanner,$cordovaCalendar,$cordovaDatePicker,$cordovaDialogs,$cordovaToast) {
   
   //Action Sheet $cordovaActionSheet
   //该行动表插件显示的选项，用户可以从中选择一个原生纸。 iOS的使用本地UIActionSheet。 Android使用本机AlertDialog。
@@ -285,5 +285,25 @@ angular.module('starter.controllers', [])
   }, function (error) {
     // error
   });
+  };
+  
+  //我的自定义插件
+  $scope.MyPlugin=function(){
+  	$ionicPopup.prompt({
+  		title:'自定义插件',
+  		template:'输入参数',
+  		inputType:'text',
+  		inputPlaceholder:'你的参数'
+  	}).then(function(res){
+  		var data={
+  			id:res
+  		};
+  		window.plugins.MyPlugin.test(function(res){
+  			ServerData.alert(res.msg);
+  		},function(err){
+  			ServerData.alert('失败：'+err);
+  		},data);
+  	});
+  	
   };
 });

@@ -123,5 +123,17 @@
             "url": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
             "subdir": "."
         }
+    },
+    "cn.zxj.cordova.UmengAnalyticsPlugin": {
+        "source": {
+            "type": "local",
+            "path": "E:\\Git\\Learn\\AngularJS\\myPlugins\\com.fengze.MyPlugin"
+        }
+    },
+    "com.fengze.MyPlugin": {
+        "source": {
+            "type": "local",
+            "path": "E:\\Git\\Learn\\AngularJS\\myPlugins\\com.fengze.MyPlugin"
+        }
     }
 }

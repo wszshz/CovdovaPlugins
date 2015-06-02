@@ -1,4 +1,5 @@
 E:\Git\Learn\CovdovaPlugins\platforms\android\ant-build\classes.dex : \
+E:\Git\Learn\CovdovaPlugins\platforms\android\ant-build\classes\com\fengze\MyPlugin.class \
 E:\Git\Learn\CovdovaPlugins\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$1.class \
 E:\Git\Learn\CovdovaPlugins\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$2.class \
 E:\Git\Learn\CovdovaPlugins\platforms\android\ant-build\classes\com\ionic\keyboard\IonicKeyboard$3.class \
